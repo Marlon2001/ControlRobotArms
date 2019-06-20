@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Control Robot Arms</string>
+    <string name="image_view">Image view</string>
+    <string name="device_connected">Dispositivo conectado:</string>
+    <string name="options_menu">Options Menu</string>
+    <string name="close_app">Fechar app</string>
+    <string name="settings">Configurações</string>
+    <string name="connect_with_bluetooth">Conectar Bluetooth</string>
+    <string name="controle_robot_arms">Control Robot Arms</string>
+    <string name="scan_for_devices">Procurar dispositivos</string>
+    <string name="select_device_bluettoth">Escolha o dispositivo Bluettoth.</string>
+    <string name="paired_devices">Paired devices.</string>
+    <string name="carregando">Carregando&#8230;</string>
+    <string name="fechar">Fechar</string>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="235dp"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caracters para cada ação"
+            android:textColor="@color/colorWhite"
+            android:textSize="19sp"
+            android:paddingStart="6dp"
+            android:paddingEnd="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 1, UP -> U"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 1, DOWN -> D"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 2, UP -> Q"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 2, DOWN -> W"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 3, UP -> Z"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eixo 3, DOWN -> X"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giro 1, ANTI-HORÁRIO -> R"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giro 1, HORÁRIO -> L"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giro 2, ANTI-HORÁRIO -> C"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Giro 2, HORÁRIO -> V"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Abre Garra ->  A"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha Garra ->  F"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Parar -> P"
+                    android:textSize="17sp"
+                    android:padding="7dp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fechar"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:theme="@style/FlatButton2"
+                android:layout_below="@id/linear_list_view"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
